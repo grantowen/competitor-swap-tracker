@@ -14,6 +14,14 @@ a title scorer.
   which changes when the thumbnail is replaced.
 - Tracks every long-form video for its first 10 days.
 
+## Who gets tracked
+
+Only channels doing packaging excellently, by numbers (TubeAI, 2026-10-19):
+average views of 250K or more per video, average views at least 8% of
+subscribers, 22% or more of videos are outliers, still uploading, and in our
+lanes (interview podcast, communication, self-development, business). The
+`own` lane is Jefferson's channel, logged for our own swaps, not as a model.
+
 ## Files
 
 | File | What it holds |
