@@ -79,6 +79,25 @@ def thumb_version(vid):
     return etag or None, body
 
 
+SAME_IMAGE = 2.0  # mean pixel difference (0-255) below which two thumbnails are the same picture
+
+
+def image_diff(vid, old, new):
+    """Mean grayscale difference between two saved thumbnail versions.
+
+    Creators often re-upload the identical image, which changes the ETag.
+    Returns a large number when the comparison cannot be made, so the change
+    is still logged as a swap rather than silently dropped.
+    """
+    try:
+        from PIL import Image, ImageChops, ImageStat
+        a = Image.open(os.path.join(THUMBS, f"{vid}_{old}.jpg")).convert("L").resize((64, 48))
+        b = Image.open(os.path.join(THUMBS, f"{vid}_{new}.jpg")).convert("L").resize((64, 48))
+        return ImageStat.Stat(ImageChops.difference(a, b)).mean[0]
+    except Exception:
+        return 255.0
+
+
 def append(path, header, row):
     new = not os.path.exists(path)
     with open(path, "a", newline="") as f:
@@ -123,10 +142,13 @@ def main():
             if prev:
                 for kind, old, new in (("title", prev["title"], title), ("thumbnail", prev["thumb_version"], etag)):
                     if new and old and new != old:
-                        swaps += 1
+                        if kind == "thumbnail" and image_diff(vid, old, new) < SAME_IMAGE:
+                            kind = "thumbnail_resaved"  # same picture re-uploaded, not a swap
+                        else:
+                            swaps += 1
                         append(SWAPS,
                                ["detected_utc", "channel", "lane", "video_id", "kind", "old", "new", "old_first_seen_utc", "hours_since_publish"],
-                               [stamp, ch["name"], ch["lane"], vid, kind, old, new, prev[f"{kind}_since"], hours])
+                               [stamp, ch["name"], ch["lane"], vid, kind, old, new, prev["title_since" if kind == "title" else "thumbnail_since"], hours])
             entry = prev or {"channel": ch["name"], "published": pub}
             if not prev or title != prev["title"]:
                 entry["title"], entry["title_since"] = title, stamp

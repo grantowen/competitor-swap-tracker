@@ -34,6 +34,10 @@ lanes (interview podcast, communication, self-development, business). The
 
 ## Limits
 
+- Creators often re-upload the identical thumbnail, which changes its version
+  stamp. The tracker compares the images and logs those as
+  `thumbnail_resaved`, not as swaps (3 of the first 6 were this).
+
 - A change can be a test result or an editorial fix (typo, guest name). Read
   swaps before scoring them.
 - During a YouTube Test & Compare run, viewers see different versions; this
