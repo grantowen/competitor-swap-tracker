@@ -28,26 +28,28 @@ TRACK_DAYS = 10
 UA = {"User-Agent": "Mozilla/5.0 (competitor-swap-tracker)"}
 
 
-def get(url, method="GET"):
+def get(url, method="GET", final_404=True):
     req = urllib.request.Request(url, headers=UA, method=method)
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=20) as r:
                 return r.status, dict(r.headers), (r.read() if method == "GET" else b"")
         except urllib.error.HTTPError as e:
-            if e.code in (404, 410):
+            # YouTube's feeds return 404/500 for minutes at a time when they
+            # throttle a server, so a feed 404 is retried rather than final
+            if e.code in (404, 410) and final_404:
                 return e.code, dict(e.headers or {}), b""
         except Exception:
             pass
-        time.sleep(2 * (attempt + 1))
+        time.sleep(3 * (attempt + 1))
     return None, {}, b""
 
 
 def feed(channel_id):
-    status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UULF{channel_id[2:]}")
+    status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UULF{channel_id[2:]}", final_404=False)
     if status != 200:
         # some channels have no long-form playlist feed; use the full feed minus Shorts
-        status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}")
+        status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}", final_404=False)
         if status != 200:
             return None
     out = []
@@ -116,8 +118,22 @@ def main():
     cutoff = now - timedelta(days=TRACK_DAYS)
     seen = swaps = failed = 0
 
+    # fetch every feed first; if YouTube is throttling, wait and retry the misses
+    feeds = {}
+    for attempt in range(3):
+        pending = [ch for ch in channels if ch["channel_id"] not in feeds]
+        if not pending:
+            break
+        if attempt:
+            print(f"retrying {len(pending)} feeds in 60s", file=sys.stderr)
+            time.sleep(60)
+        for ch in pending:
+            entries = feed(ch["channel_id"])
+            if entries is not None:
+                feeds[ch["channel_id"]] = entries
+
     for ch in channels:
-        entries = feed(ch["channel_id"])
+        entries = feeds.get(ch["channel_id"])
         if entries is None:
             failed += 1
             print(f"feed failed: {ch['name']}", file=sys.stderr)

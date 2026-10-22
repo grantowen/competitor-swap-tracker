@@ -1,7 +1,7 @@
 name: track
 on:
   schedule:
-    - cron: "17 */2 * * *"   # every 2 hours
+    - cron: "17 * * * *"   # hourly; GitHub delays and skips scheduled runs, so this lands every 1-4 hours
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -11,7 +11,7 @@ concurrency:
 jobs:
   track:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,4 +25,5 @@ jobs:
           git config user.email "swap-tracker@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "capture $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -q
           git push
