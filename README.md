@@ -12,7 +12,7 @@ a title scorer.
 - `tracker.py`, standard library only, no API keys. It uses YouTube's public
   long-form uploads feed, oEmbed for the live title, and the thumbnail's ETag,
   which changes when the thumbnail is replaced.
-- Tracks every long-form video for its first 10 days.
+- Tracks every long-form video for its first 30 days.
 
 ## Who gets tracked
 

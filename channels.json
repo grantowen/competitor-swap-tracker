@@ -1,14 +1,92 @@
 [
-  {"name": "The Diary Of A CEO", "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw", "lane": "podcast"},
-  {"name": "Mel Robbins", "channel_id": "UCk2U-Oqn7RXf-ydPqfSxG5g", "lane": "podcast"},
-  {"name": "Jay Shetty Podcast", "channel_id": "UCbk_QsfaFZG6PdQeCvaYXJQ", "lane": "podcast"},
-  {"name": "Andrew Huberman", "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg", "lane": "podcast"},
-  {"name": "Charisma on Command", "channel_id": "UCU_W0oE_ock8bWKjALiGs8Q", "lane": "communication"},
-  {"name": "Chase Hughes", "channel_id": "UCUBj_5pwQZaoXfBrEQQbADw", "lane": "communication"},
-  {"name": "Mark Manson", "channel_id": "UC0TnW9acNxqeojxXDMbohcA", "lane": "self-development"},
-  {"name": "PBD Podcast", "channel_id": "UCGX7nGXpz-CmO_Arg-cgJ7A", "lane": "business"},
-  {"name": "Alex Hormozi", "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw", "lane": "business"},
-  {"name": "Codie Sanchez", "channel_id": "UC5fI3kxC-ewZ6ZXEYgznM7g", "lane": "business"},
-  {"name": "Jack Neel", "channel_id": "UCFRCiFkWWJN2rO6dsKU9-1A", "lane": "business"},
-  {"name": "Jefferson Fisher", "channel_id": "UCXjnpu6lK0HoUyOMh2ZBwhQ", "lane": "own"}
+  {
+    "name": "The Diary Of A CEO",
+    "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+    "lane": "podcast"
+  },
+  {
+    "name": "Mel Robbins",
+    "channel_id": "UCk2U-Oqn7RXf-ydPqfSxG5g",
+    "lane": "podcast"
+  },
+  {
+    "name": "Jay Shetty Podcast",
+    "channel_id": "UCbk_QsfaFZG6PdQeCvaYXJQ",
+    "lane": "podcast"
+  },
+  {
+    "name": "Andrew Huberman",
+    "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
+    "lane": "podcast"
+  },
+  {
+    "name": "Charisma on Command",
+    "channel_id": "UCU_W0oE_ock8bWKjALiGs8Q",
+    "lane": "communication"
+  },
+  {
+    "name": "Chase Hughes",
+    "channel_id": "UCUBj_5pwQZaoXfBrEQQbADw",
+    "lane": "communication"
+  },
+  {
+    "name": "Mark Manson",
+    "channel_id": "UC0TnW9acNxqeojxXDMbohcA",
+    "lane": "self-development"
+  },
+  {
+    "name": "PBD Podcast",
+    "channel_id": "UCGX7nGXpz-CmO_Arg-cgJ7A",
+    "lane": "business"
+  },
+  {
+    "name": "Alex Hormozi",
+    "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+    "lane": "business"
+  },
+  {
+    "name": "Codie Sanchez",
+    "channel_id": "UC5fI3kxC-ewZ6ZXEYgznM7g",
+    "lane": "business"
+  },
+  {
+    "name": "Jack Neel",
+    "channel_id": "UCFRCiFkWWJN2rO6dsKU9-1A",
+    "lane": "business"
+  },
+  {
+    "name": "Matt D'Avella",
+    "channel_id": "UCJ24N4O0bP7LGLBDvye7oCA",
+    "lane": "self-development"
+  },
+  {
+    "name": "Ali Abdaal",
+    "channel_id": "UCoOae5nYA7VqaXzerajD0lg",
+    "lane": "self-development"
+  },
+  {
+    "name": "Prince Ea",
+    "channel_id": "UCDgUAAHgsV2fFZQm2fIWBnA",
+    "lane": "self-development"
+  },
+  {
+    "name": "Better Ideas",
+    "channel_id": "UCtUId5WFnN82GdDy7DgaQ7w",
+    "lane": "self-development"
+  },
+  {
+    "name": "UpFlip",
+    "channel_id": "UChFahjDeMBV67DSXiF5pwBA",
+    "lane": "business"
+  },
+  {
+    "name": "The Drew Brown Show",
+    "channel_id": "UCE5W4yARcuWGCpJITTOfS_w",
+    "lane": "self-development"
+  },
+  {
+    "name": "Jefferson Fisher",
+    "channel_id": "UCXjnpu6lK0HoUyOMh2ZBwhQ",
+    "lane": "own"
+  }
 ]

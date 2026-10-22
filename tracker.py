@@ -24,7 +24,7 @@ THUMBS = os.path.join(DATA, "thumbs")
 STATE = os.path.join(DATA, "state.json")
 SNAPSHOTS = os.path.join(DATA, "snapshots.csv")
 SWAPS = os.path.join(DATA, "swaps.csv")
-TRACK_DAYS = 10
+TRACK_DAYS = 30
 UA = {"User-Agent": "Mozilla/5.0 (competitor-swap-tracker)"}
 
 
