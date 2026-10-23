@@ -2,27 +2,30 @@ name: backfill
 on:
   workflow_dispatch:
     inputs:
-      list:
-        description: "Video list file in backfill/"
-        default: "videos_batch1.txt"
+      lists:
+        description: "Comma-separated video list files in backfill/"
+        default: "videos_batch1.txt,videos_batch2.txt"
 permissions:
   contents: write
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 355
     strategy:
       fail-fast: false
-      max-parallel: 3
+      max-parallel: 20
       matrix:
-        shard: [0, 1, 2]
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install pillow
-      - run: python backfill/backfill.py "backfill/${{ github.event.inputs.list }}" ${{ matrix.shard }} 3 160
+      - name: Backfill
+        run: |
+          LISTS=$(echo "${{ github.event.inputs.lists }}" | sed 's#\([^,]*\)#backfill/\1#g')
+          python backfill/backfill.py "$LISTS" ${{ matrix.shard }} 20 330
       - name: Commit results
         if: always()
         run: |
@@ -31,5 +34,5 @@ jobs:
           git add data/archive
           git diff --cached --quiet && exit 0
           git commit -m "archive backfill shard ${{ matrix.shard }} $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3 4 5; do git pull --rebase -q && git push && exit 0; sleep $((i * 10)); done
+          for i in $(seq 1 12); do git pull --rebase -q && git push && exit 0; sleep $((RANDOM % 20 + i * 5)); done
           exit 1

@@ -10,7 +10,7 @@ long back-off when the Archive asks us to slow down, logged out, no keys.
 Resumable: videos already in the output are skipped, and the run stops itself
 before the job time limit so finished work is always committed.
 
-Usage: python backfill.py <video_list.txt> <shard> <shards> [minutes]
+Usage: python backfill.py <list1.txt,list2.txt> <shard> <shards> [minutes]
 Each list line: <channel_id> <video_id> <video_id> ...
 """
 import csv, gzip, html, json, os, re, sys, time
@@ -34,7 +34,7 @@ def get(url, binary=False, tries=5):
         t0 = time.time()
         try:
             req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=45) as r:
+            with urllib.request.urlopen(req, timeout=30) as r:
                 body = r.read()
                 STATS["request_s"] += time.time() - t0
                 STATS["ok"] += 1
@@ -182,22 +182,27 @@ def process(channel_id, vid, outdir, thumbdir):
 
 
 def main():
-    listfile, shard, shards = sys.argv[1], int(sys.argv[2]), int(sys.argv[3])
+    lists, shard, shards = sys.argv[1].split(","), int(sys.argv[2]), int(sys.argv[3])
     budget = float(sys.argv[4]) * 60 if len(sys.argv) > 4 else 160 * 60
     outdir = os.path.join(OUT, f"shard{shard}")
     thumbdir = os.path.join(OUT, "thumbs")
     os.makedirs(outdir, exist_ok=True)
     os.makedirs(thumbdir, exist_ok=True)
+    # skip anything any earlier run finished, whatever shard it ran in
     done = set()
-    if os.path.exists(os.path.join(outdir, "done.csv")):
-        done = {r["video_id"] for r in csv.DictReader(open(os.path.join(outdir, "done.csv")))}
-    work = []
-    for i, line in enumerate(l for l in open(listfile).read().splitlines() if l.strip()):
-        if i % shards != shard:
-            continue
-        channel_id, *vids = line.split()
-        work += [(channel_id, v) for v in vids if v not in done]
-    print(f"shard {shard}/{shards}: {len(work)} videos to do, {len(done)} already done")
+    for d in os.listdir(OUT):
+        f = os.path.join(OUT, d, "done.csv")
+        if d.startswith("shard") and os.path.exists(f):
+            done |= {r["video_id"] for r in csv.DictReader(open(f))}
+    every = []
+    for listfile in lists:
+        for line in open(listfile).read().splitlines():
+            if line.strip():
+                channel_id, *vids = line.split()
+                every += [(channel_id, v) for v in vids]
+    # interleave by video, not by channel, so every shard gets a mix and all finish together
+    work = [w for i, w in enumerate(every) if i % shards == shard and w[1] not in done]
+    print(f"shard {shard}/{shards}: {len(work)} videos to do, {len(done)} already done overall")
     found = 0
     for n, (channel_id, vid) in enumerate(work, 1):
         if time.time() - START > budget:
