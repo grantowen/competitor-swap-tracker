@@ -23,24 +23,36 @@ EARLY_TITLES = 1     # readable early copies wanted (titles change early)
 MAX_PAGE_READS = 9   # cap on saved pages fetched per video (many are bot walls)
 UA = {"User-Agent": "competitor-swap-tracker/1.0 (research; contact via GitHub grantowen)"}
 START = time.time()
+STATS = {"requests": 0, "ok": 0, "codes": {}, "errors": {}, "wait_s": 0.0, "request_s": 0.0}
 
 
 def get(url, binary=False, tries=5):
     for attempt in range(tries):
         time.sleep(PAUSE)
+        STATS["wait_s"] += PAUSE
+        STATS["requests"] += 1
+        t0 = time.time()
         try:
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=45) as r:
                 body = r.read()
+                STATS["request_s"] += time.time() - t0
+                STATS["ok"] += 1
                 while body[:2] == b"\x1f\x8b":  # the Archive sometimes serves pages still gzipped
                     body = gzip.decompress(body)
                 return body if binary else body.decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
+            STATS["request_s"] += time.time() - t0
+            STATS["codes"][e.code] = STATS["codes"].get(e.code, 0) + 1
             if e.code in (404, 403):
                 return None
             wait = 60 if e.code in (429, 503) else 10 * (attempt + 1)
-        except Exception:
+        except Exception as e:
+            STATS["request_s"] += time.time() - t0
+            k = type(e).__name__
+            STATS["errors"][k] = STATS["errors"].get(k, 0) + 1
             wait = 10 * (attempt + 1)
+        STATS["wait_s"] += wait
         time.sleep(wait)
     return None
 
@@ -191,9 +203,11 @@ def main():
         if time.time() - START > budget:
             print(f"time budget reached after {n - 1} videos; rerun to continue")
             break
+        t0, r0, w0 = time.time(), STATS["requests"], STATS["wait_s"]
         found += process(channel_id, vid, outdir, thumbdir)
-        if n % 10 == 0:
-            print(f"{n}/{len(work)} videos, {found} pairs so far", flush=True)
+        print(f"{n}/{len(work)} {vid}: {time.time() - t0:.0f}s, {STATS['requests'] - r0} requests, "
+              f"{STATS['wait_s'] - w0:.0f}s waiting | totals ok={STATS['ok']} http={STATS['codes']} "
+              f"errors={STATS['errors']} request_time={STATS['request_s']:.0f}s wait_time={STATS['wait_s']:.0f}s", flush=True)
     print(f"shard {shard} finished: {found} pairs")
 
 
