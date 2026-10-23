@@ -43,3 +43,11 @@ lanes (interview podcast, communication, self-development, business). The
 - During a YouTube Test & Compare run, viewers see different versions; this
   tracker sees whatever YouTube serves it, so the winner shows up when the
   test ends.
+
+## Other sources in the database
+
+| Source | File | What it is |
+| --- | --- | --- |
+| Live tracker | `data/swaps.csv` | Swaps caught as they happen (cleanest) |
+| Internet Archive | `data/archive/shard*/pairs.csv` | Past swaps recovered from saved pages and thumbnails; exact swap time unknown |
+| Creator Hooks | `data/external/creator_hooks_title_ab.csv` | Jake Thomas's 103 controlled title A/B tests (2022, 15 small niche channels), with CTR for each title |

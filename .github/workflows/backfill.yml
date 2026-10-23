@@ -1,0 +1,35 @@
+name: backfill
+on:
+  workflow_dispatch:
+    inputs:
+      list:
+        description: "Video list file in backfill/"
+        default: "videos_batch1.txt"
+permissions:
+  contents: write
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        shard: [0, 1, 2]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python backfill/backfill.py "backfill/${{ github.event.inputs.list }}" ${{ matrix.shard }} 3 160
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "swap-tracker"
+          git config user.email "swap-tracker@users.noreply.github.com"
+          git add data/archive
+          git diff --cached --quiet && exit 0
+          git commit -m "archive backfill shard ${{ matrix.shard }} $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push && exit 0; sleep $((i * 10)); done
+          exit 1
