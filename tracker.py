@@ -28,9 +28,9 @@ TRACK_DAYS = 30
 UA = {"User-Agent": "Mozilla/5.0 (competitor-swap-tracker)"}
 
 
-def get(url, method="GET", final_404=True):
+def get(url, method="GET", final_404=True, tries=3):
     req = urllib.request.Request(url, headers=UA, method=method)
-    for attempt in range(3):
+    for attempt in range(tries):
         try:
             with urllib.request.urlopen(req, timeout=20) as r:
                 return r.status, dict(r.headers), (r.read() if method == "GET" else b"")
@@ -49,9 +49,9 @@ def feed(channel_id):
     # YouTube's documented channel feed (last 15 uploads, Shorts included and
     # filtered out below). It returns 404/500 intermittently, so it is retried.
     # The undocumented long-form-only playlist feed is a fallback only.
-    status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}", final_404=False)
+    status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}", final_404=False, tries=2)
     if status != 200:
-        status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UULF{channel_id[2:]}", final_404=False)
+        status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UULF{channel_id[2:]}", tries=1)
         if status != 200:
             return None
     out = []
