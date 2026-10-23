@@ -46,10 +46,12 @@ def get(url, method="GET", final_404=True):
 
 
 def feed(channel_id):
-    status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UULF{channel_id[2:]}", final_404=False)
+    # YouTube's documented channel feed (last 15 uploads, Shorts included and
+    # filtered out below). It returns 404/500 intermittently, so it is retried.
+    # The undocumented long-form-only playlist feed is a fallback only.
+    status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}", final_404=False)
     if status != 200:
-        # some channels have no long-form playlist feed; use the full feed minus Shorts
-        status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}", final_404=False)
+        status, _, body = get(f"https://www.youtube.com/feeds/videos.xml?playlist_id=UULF{channel_id[2:]}", final_404=False)
         if status != 200:
             return None
     out = []
@@ -136,8 +138,13 @@ def main():
         entries = feeds.get(ch["channel_id"])
         if entries is None:
             failed += 1
-            print(f"feed failed: {ch['name']}", file=sys.stderr)
-            continue
+            print(f"feed failed: {ch['name']} (still checking its known videos)", file=sys.stderr)
+            entries = []
+        # the feed only lists the last 15 uploads, so a busy channel's video can
+        # drop off within days; keep checking every known video for the full window
+        listed = {e[0] for e in entries}
+        entries = entries + [(v, s["published"], s.get("title", "")) for v, s in state.items()
+                             if s.get("channel") == ch["name"] and v not in listed]
         for vid, pub, feed_title in entries:
             published = datetime.fromisoformat(pub.replace("Z", "+00:00"))
             if published < cutoff:
@@ -180,7 +187,7 @@ def main():
              if datetime.fromisoformat(s["published"].replace("Z", "+00:00")) >= cutoff - timedelta(days=2)}
     json.dump(state, open(STATE, "w"), indent=1, ensure_ascii=False, sort_keys=True)
     print(f"{stamp}: {seen} videos checked across {len(channels) - failed}/{len(channels)} channels, {swaps} swaps logged")
-    if failed == len(channels):
+    if failed == len(channels) and seen == 0:
         sys.exit(1)
 
 
