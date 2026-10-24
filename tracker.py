@@ -24,6 +24,7 @@ THUMBS = os.path.join(DATA, "thumbs")
 STATE = os.path.join(DATA, "state.json")
 SNAPSHOTS = os.path.join(DATA, "snapshots.csv")
 SWAPS = os.path.join(DATA, "swaps.csv")
+VIEWS = os.path.join(DATA, "views.json")
 TRACK_DAYS = 30
 UA = {"User-Agent": "Mozilla/5.0 (competitor-swap-tracker)"}
 
@@ -61,7 +62,8 @@ def feed(channel_id):
         vid = re.search(r"<yt:videoId>(.*?)<", e).group(1)
         pub = re.search(r"<published>(.*?)<", e).group(1)
         title = html.unescape(re.search(r"<title>(.*?)</title>", e, re.S).group(1)).strip()
-        out.append((vid, pub, title))
+        views = re.search(r'<media:statistics views="(\d+)"', e)
+        out.append((vid, pub, title, int(views.group(1)) if views else None))
     return out
 
 
@@ -115,6 +117,7 @@ def main():
     os.makedirs(THUMBS, exist_ok=True)
     channels = json.load(open(os.path.join(ROOT, "channels.json")))
     state = json.load(open(STATE)) if os.path.exists(STATE) else {}
+    views = json.load(open(VIEWS)) if os.path.exists(VIEWS) else {}
     now = datetime.now(timezone.utc)
     stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     cutoff = now - timedelta(days=TRACK_DAYS)
@@ -143,9 +146,14 @@ def main():
         # the feed only lists the last 15 uploads, so a busy channel's video can
         # drop off within days; keep checking every known video for the full window
         listed = {e[0] for e in entries}
-        entries = entries + [(v, s["published"], s.get("title", "")) for v, s in state.items()
+        for vid, pub, feed_title, count in entries:
+            if count is not None:
+                # total views per video, latest count wins; never pruned, so it builds
+                # the per-channel view table that outlier multipliers are computed from
+                views[vid] = {"channel": ch["name"], "published": pub, "title": feed_title, "views": count, "captured_utc": stamp}
+        entries = entries + [(v, s["published"], s.get("title", ""), None) for v, s in state.items()
                              if s.get("channel") == ch["name"] and v not in listed]
-        for vid, pub, feed_title in entries:
+        for vid, pub, feed_title, _ in entries:
             published = datetime.fromisoformat(pub.replace("Z", "+00:00"))
             if published < cutoff:
                 continue
@@ -186,6 +194,7 @@ def main():
     state = {v: s for v, s in state.items()
              if datetime.fromisoformat(s["published"].replace("Z", "+00:00")) >= cutoff - timedelta(days=2)}
     json.dump(state, open(STATE, "w"), indent=1, ensure_ascii=False, sort_keys=True)
+    json.dump(views, open(VIEWS, "w"), indent=1, ensure_ascii=False, sort_keys=True)
     print(f"{stamp}: {seen} videos checked across {len(channels) - failed}/{len(channels)} channels, {swaps} swaps logged")
     if failed == len(channels) and seen == 0:
         sys.exit(1)
