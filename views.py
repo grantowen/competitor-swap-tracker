@@ -2,15 +2,16 @@
 """Total views for every video we know about, refreshed daily.
 
 Outlier multipliers need a video's views next to its channel's normal views,
-so this keeps one current row per video: every id in the backfill lists plus
+so this keeps one current row per video: every upload of the last 2 years
+from each channel's uploads playlist, plus every id in the backfill lists and
 every video the live tracker has seen. Long-form and Shorts are both kept,
 with duration, so analysis can filter.
 
-YouTube Data API v3 videos.list, 1 quota unit per 50 videos (about 80 units
-a day today). Needs YOUTUBE_API_KEY.
+YouTube Data API v3 playlistItems.list + videos.list, 1 quota unit per 50
+videos each (a few hundred units a day). Needs YOUTUBE_API_KEY.
 """
 import csv, glob, json, os, sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 import tracker
 
@@ -32,13 +33,38 @@ def known_ids():
     return list(ids)
 
 
+def all_uploads(channel_id, since):
+    """Every upload since a date from the channel's uploads playlist, 1 quota unit per 50."""
+    ids, token = [], None
+    while True:
+        params = dict(part="contentDetails", playlistId="UU" + channel_id[2:], maxResults=50)
+        if token:
+            params["pageToken"] = token
+        r = tracker.api("playlistItems", **params)
+        if r is None:
+            return ids
+        for it in r.get("items", []):
+            pub = it["contentDetails"].get("videoPublishedAt")
+            if pub and datetime.fromisoformat(pub.replace("Z", "+00:00")) < since:
+                return ids
+            ids.append(it["contentDetails"]["videoId"])
+        token = r.get("nextPageToken")
+        if not token:
+            return ids
+
+
 def main():
     if not tracker.API_KEY:
         sys.exit("YOUTUBE_API_KEY is not set")
-    names = {c["channel_id"]: c["name"] for c in json.load(open(os.path.join(ROOT, "channels.json")))}
+    channels = json.load(open(os.path.join(ROOT, "channels.json")))
+    names = {c["channel_id"]: c["name"] for c in channels}
     views = json.load(open(VIEWS)) if os.path.exists(VIEWS) else {}
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    ids = sorted(set(known_ids()) | set(views))
+    # the backfill lists came from third-party tools and miss uploads; the uploads
+    # playlist is the complete record, so every video of the last 2 years is kept
+    since = datetime.now(timezone.utc) - timedelta(days=2 * 365 + 30)
+    listed = [v for c in channels for v in all_uploads(c["channel_id"], since)]
+    ids = sorted(set(known_ids()) | set(views) | set(listed))
     got = missing = 0
     for i in range(0, len(ids), 50):
         chunk = ids[i:i + 50]
