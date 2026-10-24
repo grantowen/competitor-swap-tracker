@@ -9,13 +9,15 @@ A swap is a competitor's own test result: the version they dropped next to
 the version they kept, on the same video. Those pairs are the data a title
 scorer can be tested against.
 
-Standard library only. No API keys. Public endpoints:
-  feed:      youtube.com/feeds/videos.xml?playlist_id=UULF<id>  (long-form only)
-  title:     youtube.com/oembed
-  thumbnail: i.ytimg.com/vi/<id>/hqdefault.jpg  (ETag changes when it is replaced)
+Standard library only. Sources:
+  list + title: YouTube Data API v3 (uploads playlist + videos.list) when the
+                YOUTUBE_API_KEY env var is set; about 100 quota units a run
+  fallback:     youtube.com/feeds/videos.xml + youtube.com/oembed (no key)
+  thumbnail:    i.ytimg.com/vi/<id>/hqdefault.jpg  (ETag changes when it is replaced)
+Total views per video are kept by views.py, not here.
 """
 import csv, json, os, re, sys, time, html
-import urllib.request, urllib.error
+import urllib.request, urllib.error, urllib.parse
 from datetime import datetime, timezone, timedelta
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -24,9 +26,11 @@ THUMBS = os.path.join(DATA, "thumbs")
 STATE = os.path.join(DATA, "state.json")
 SNAPSHOTS = os.path.join(DATA, "snapshots.csv")
 SWAPS = os.path.join(DATA, "swaps.csv")
-VIEWS = os.path.join(DATA, "views.json")
 TRACK_DAYS = 30
+SHORT_MAX_SECONDS = 180  # Shorts run up to 3 minutes; anything this short is skipped
 UA = {"User-Agent": "Mozilla/5.0 (competitor-swap-tracker)"}
+API_KEY = os.environ.get("YOUTUBE_API_KEY", "").strip()
+API = "https://www.googleapis.com/youtube/v3/"
 
 
 def get(url, method="GET", final_404=True, tries=3):
@@ -62,9 +66,74 @@ def feed(channel_id):
         vid = re.search(r"<yt:videoId>(.*?)<", e).group(1)
         pub = re.search(r"<published>(.*?)<", e).group(1)
         title = html.unescape(re.search(r"<title>(.*?)</title>", e, re.S).group(1)).strip()
-        views = re.search(r'<media:statistics views="(\d+)"', e)
-        out.append((vid, pub, title, int(views.group(1)) if views else None))
+        out.append((vid, pub, title))
     return out
+
+
+def api(path, **params):
+    params["key"] = API_KEY
+    query = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items())
+    status, _, body = get(f"{API}{path}?{query}", final_404=True, tries=3)
+    if status != 200:
+        return None
+    return json.loads(body)
+
+
+def duration_seconds(iso):
+    m = re.fullmatch(r"P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso or "")
+    if not m:
+        return None
+    d, h, mi, s = (int(x or 0) for x in m.groups())
+    return ((d * 24 + h) * 60 + mi) * 60 + s
+
+
+def api_videos(ids):
+    """Title, publish time and length for up to any number of ids, 1 quota unit per 50."""
+    out = {}
+    ids = list(ids)
+    for i in range(0, len(ids), 50):
+        r = api("videos", part="snippet,contentDetails", id=",".join(ids[i:i + 50]), maxResults=50)
+        if r is None:
+            return None
+        for v in r.get("items", []):
+            out[v["id"]] = (v["snippet"]["publishedAt"], v["snippet"]["title"].strip(),
+                            duration_seconds(v["contentDetails"].get("duration")))
+    return out
+
+
+def api_recent(channel_id, cutoff):
+    """Ids uploaded since cutoff, from the channel's uploads playlist (newest first)."""
+    ids, token = [], None
+    for _ in range(4):
+        params = dict(part="contentDetails", playlistId="UU" + channel_id[2:], maxResults=50)
+        if token:
+            params["pageToken"] = token
+        r = api("playlistItems", **params)
+        if r is None:
+            return None
+        older = False
+        for it in r.get("items", []):
+            pub = it["contentDetails"].get("videoPublishedAt")
+            if pub and datetime.fromisoformat(pub.replace("Z", "+00:00")) < cutoff:
+                older = True
+                break
+            ids.append(it["contentDetails"]["videoId"])
+        token = r.get("nextPageToken")
+        if older or not token:
+            break
+    return ids
+
+
+def api_entries(channel_id, known, cutoff):
+    """(id, published, title) for long-form videos in the window, or None if the API failed."""
+    recent = api_recent(channel_id, cutoff)
+    if recent is None:
+        return None
+    details = api_videos(dict.fromkeys(recent + known))
+    if details is None:
+        return None
+    return [(vid, pub, title) for vid, (pub, title, secs) in details.items()
+            if secs is None or secs > SHORT_MAX_SECONDS]
 
 
 def oembed_title(vid):
@@ -117,14 +186,24 @@ def main():
     os.makedirs(THUMBS, exist_ok=True)
     channels = json.load(open(os.path.join(ROOT, "channels.json")))
     state = json.load(open(STATE)) if os.path.exists(STATE) else {}
-    views = json.load(open(VIEWS)) if os.path.exists(VIEWS) else {}
     now = datetime.now(timezone.utc)
     stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     cutoff = now - timedelta(days=TRACK_DAYS)
     seen = swaps = failed = 0
 
-    # fetch every feed first; if YouTube is throttling, wait and retry the misses
-    feeds = {}
+    # the API answers with the current title directly, so oEmbed is only needed on the feed path
+    feeds, from_api = {}, set()
+    if API_KEY:
+        for ch in channels:
+            known = [v for v, s in state.items() if s.get("channel") == ch["name"]]
+            entries = api_entries(ch["channel_id"], known, cutoff)
+            if entries is not None:
+                feeds[ch["channel_id"]] = entries
+                from_api.add(ch["channel_id"])
+        if len(from_api) < len(channels):
+            print(f"API failed for {len(channels) - len(from_api)} channels, using the feed for them", file=sys.stderr)
+
+    # feed fallback; if YouTube is throttling, wait and retry the misses
     for attempt in range(3):
         pending = [ch for ch in channels if ch["channel_id"] not in feeds]
         if not pending:
@@ -146,18 +225,16 @@ def main():
         # the feed only lists the last 15 uploads, so a busy channel's video can
         # drop off within days; keep checking every known video for the full window
         listed = {e[0] for e in entries}
-        for vid, pub, feed_title, count in entries:
-            if count is not None:
-                # total views per video, latest count wins; never pruned, so it builds
-                # the per-channel view table that outlier multipliers are computed from
-                views[vid] = {"channel": ch["name"], "published": pub, "title": feed_title, "views": count, "captured_utc": stamp}
-        entries = entries + [(v, s["published"], s.get("title", ""), None) for v, s in state.items()
+        entries = entries + [(v, s["published"], s.get("title", "")) for v, s in state.items()
                              if s.get("channel") == ch["name"] and v not in listed]
-        for vid, pub, feed_title, _ in entries:
+        for vid, pub, feed_title in entries:
             published = datetime.fromisoformat(pub.replace("Z", "+00:00"))
             if published < cutoff:
                 continue
-            title = oembed_title(vid) or feed_title
+            if ch["channel_id"] in from_api and vid in listed:
+                title = feed_title
+            else:
+                title = oembed_title(vid) or feed_title
             etag, image = thumb_version(vid)
             hours = round((now - published).total_seconds() / 3600, 1)
             # the thumbnail ETag is the Unix time the current thumbnail was set
@@ -194,7 +271,6 @@ def main():
     state = {v: s for v, s in state.items()
              if datetime.fromisoformat(s["published"].replace("Z", "+00:00")) >= cutoff - timedelta(days=2)}
     json.dump(state, open(STATE, "w"), indent=1, ensure_ascii=False, sort_keys=True)
-    json.dump(views, open(VIEWS, "w"), indent=1, ensure_ascii=False, sort_keys=True)
     print(f"{stamp}: {seen} videos checked across {len(channels) - failed}/{len(channels)} channels, {swaps} swaps logged")
     if failed == len(channels) and seen == 0:
         sys.exit(1)

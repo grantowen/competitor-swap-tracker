@@ -1,0 +1,30 @@
+name: views
+on:
+  schedule:
+    - cron: "40 6 * * *"   # daily
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: track   # shares the tracker's lane so the two never push over each other
+  cancel-in-progress: false
+jobs:
+  views:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python views.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      - name: Commit views
+        run: |
+          git config user.name "swap-tracker"
+          git config user.email "swap-tracker@users.noreply.github.com"
+          git add data/views.json
+          git diff --cached --quiet || git commit -m "views $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -q
+          git push
