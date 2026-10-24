@@ -35,7 +35,9 @@ def known_ids():
 
 def all_uploads(channel_id, since):
     """Every upload since a date from the channel's uploads playlist, 1 quota unit per 50."""
-    ids, token = [], None
+    # the playlist is roughly newest first but not strictly (premieres, re-publishes),
+    # so keep paging until two whole pages fall before the window
+    ids, token, old_pages = [], None, 0
     while True:
         params = dict(part="contentDetails", playlistId="UU" + channel_id[2:], maxResults=50)
         if token:
@@ -43,13 +45,16 @@ def all_uploads(channel_id, since):
         r = tracker.api("playlistItems", **params)
         if r is None:
             return ids
+        in_window = 0
         for it in r.get("items", []):
             pub = it["contentDetails"].get("videoPublishedAt")
             if pub and datetime.fromisoformat(pub.replace("Z", "+00:00")) < since:
-                return ids
+                continue
             ids.append(it["contentDetails"]["videoId"])
+            in_window += 1
+        old_pages = old_pages + 1 if in_window == 0 else 0
         token = r.get("nextPageToken")
-        if not token:
+        if not token or old_pages >= 2:
             return ids
 
 
