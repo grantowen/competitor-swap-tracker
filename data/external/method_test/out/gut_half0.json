@@ -1,0 +1,1972 @@
+[
+{
+"pid": "p0000",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0004",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0008",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0012",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0016",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0020",
+"pick": "B",
+"confidence": 3
+},
+{
+"pid": "p0024",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0028",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0032",
+"pick": "B",
+"confidence": 3
+},
+{
+"pid": "p0036",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0040",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0044",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0048",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0052",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0056",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0060",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0064",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0068",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0072",
+"pick": "B",
+"confidence": 3
+},
+{
+"pid": "p0076",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0080",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0084",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0088",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0092",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0096",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0100",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0104",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0108",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0112",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0116",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0120",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0124",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0128",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0132",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0136",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0140",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0144",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0148",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0152",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0156",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0160",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0164",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0168",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0172",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0176",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0180",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0184",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0188",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0192",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0196",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0200",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0204",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0208",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0212",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0216",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0220",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0224",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0228",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0232",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0236",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0240",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0244",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0248",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0252",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0256",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0260",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0264",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0268",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0272",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0276",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0280",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0284",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0288",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0292",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0296",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0300",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0304",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0308",
+"pick": "A",
+"confidence": 3
+},
+{
+"pid": "p0312",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0316",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0320",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0324",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0328",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0332",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0336",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0340",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0344",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0348",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0352",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0356",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0360",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0364",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0368",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0372",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0376",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0380",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0384",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0388",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0392",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0396",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0400",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0404",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0408",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0412",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0416",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0420",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0424",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0428",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0432",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0436",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0440",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0444",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0448",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0452",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0456",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0460",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0464",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0468",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0472",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0476",
+"pick": "B",
+"confidence": 3
+},
+{
+"pid": "p0480",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0484",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0488",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0492",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0496",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0500",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0504",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0508",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0512",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0516",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0520",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0524",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0528",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0532",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0536",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0540",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0544",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0548",
+"pick": "B",
+"confidence": 3
+},
+{
+"pid": "p0552",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0556",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0560",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0564",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0568",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0572",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0576",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0580",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0584",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0588",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0592",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0596",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0600",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0604",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0608",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0612",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0616",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0620",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0624",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0628",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0632",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0636",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0640",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0644",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0648",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0652",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0656",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0660",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0664",
+"pick": "A",
+"confidence": 3
+},
+{
+"pid": "p0668",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0672",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0676",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0680",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0684",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0688",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0692",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0696",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0700",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0704",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0708",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0712",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0716",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0720",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0724",
+"pick": "A",
+"confidence": 3
+},
+{
+"pid": "p0728",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0732",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0736",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0740",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0744",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0748",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0752",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0756",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0760",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0764",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0768",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0772",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0776",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0780",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0784",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0001",
+"pick": "A",
+"confidence": 3
+},
+{
+"pid": "p0005",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0009",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0013",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0017",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0021",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0025",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0029",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0033",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0037",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0041",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0045",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0049",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0053",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0057",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0061",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0065",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0069",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0073",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0077",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0081",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0085",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0089",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0093",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0097",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0101",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0105",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0109",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0113",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0117",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0121",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0125",
+"pick": "A",
+"confidence": 3
+},
+{
+"pid": "p0129",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0133",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0137",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0141",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0145",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0149",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0153",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0157",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0161",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0165",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0169",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0173",
+"pick": "A",
+"confidence": 3
+},
+{
+"pid": "p0177",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0181",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0185",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0189",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0193",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0197",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0201",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0205",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0209",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0213",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0217",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0221",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0225",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0229",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0233",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0237",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0241",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0245",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0249",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0253",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0257",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0261",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0265",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0269",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0273",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0277",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0281",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0285",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0289",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0293",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0297",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0301",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0305",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0309",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0313",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0317",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0321",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0325",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0329",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0333",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0337",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0341",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0345",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0349",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0353",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0357",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0361",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0365",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0369",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0373",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0377",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0381",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0385",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0389",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0393",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0397",
+"pick": "A",
+"confidence": 3
+},
+{
+"pid": "p0401",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0405",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0409",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0413",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0417",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0421",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0425",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0429",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0433",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0437",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0441",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0445",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0449",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0453",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0457",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0461",
+"pick": "A",
+"confidence": 3
+},
+{
+"pid": "p0465",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0469",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0473",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0477",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0481",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0485",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0489",
+"pick": "B",
+"confidence": 3
+},
+{
+"pid": "p0493",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0497",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0501",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0505",
+"pick": "B",
+"confidence": 3
+},
+{
+"pid": "p0509",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0513",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0517",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0521",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0525",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0529",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0533",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0537",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0541",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0545",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0549",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0553",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0557",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0561",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0565",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0569",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0573",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0577",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0581",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0585",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0589",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0593",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0597",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0601",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0605",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0609",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0613",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0617",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0621",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0625",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0629",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0633",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0637",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0641",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0645",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0649",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0653",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0657",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0661",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0665",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0669",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0673",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0677",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0681",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0685",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0689",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0693",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0697",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0701",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0705",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0709",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0713",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0717",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0721",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0725",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0729",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0733",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0737",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0741",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0745",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0749",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0753",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0757",
+"pick": "B",
+"confidence": 1
+},
+{
+"pid": "p0761",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0765",
+"pick": "B",
+"confidence": 3
+},
+{
+"pid": "p0769",
+"pick": "A",
+"confidence": 1
+},
+{
+"pid": "p0773",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0777",
+"pick": "A",
+"confidence": 2
+},
+{
+"pid": "p0781",
+"pick": "B",
+"confidence": 2
+},
+{
+"pid": "p0785",
+"pick": "B",
+"confidence": 2
+}
+]

@@ -1,0 +1,2360 @@
+[
+ {
+  "pid": "p0002",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "equal fear vs hidden truth"
+ },
+ {
+  "pid": "p0006",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "real reason reveal"
+ },
+ {
+  "pid": "p0010",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic first beats name first"
+ },
+ {
+  "pid": "p0014",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "insider label beats name"
+ },
+ {
+  "pid": "p0018",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "instant skill, B mildly contrarian"
+ },
+ {
+  "pid": "p0022",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian stop"
+ },
+ {
+  "pid": "p0026",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian stop quote"
+ },
+ {
+  "pid": "p0030",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian wrong advice"
+ },
+ {
+  "pid": "p0034",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific fact, B narrow"
+ },
+ {
+  "pid": "p0038",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same label both warnings"
+ },
+ {
+  "pid": "p0042",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0046",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "banned specific reveal"
+ },
+ {
+  "pid": "p0050",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "hidden truth over explainer"
+ },
+ {
+  "pid": "p0054",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "reveal over bare trailer"
+ },
+ {
+  "pid": "p0058",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B rank label"
+ },
+ {
+  "pid": "p0062",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "specific price fact"
+ },
+ {
+  "pid": "p0066",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "quote expose reveal"
+ },
+ {
+  "pid": "p0070",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0074",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific reveal Jordan ADHD"
+ },
+ {
+  "pid": "p0078",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0082",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both topic labels"
+ },
+ {
+  "pid": "p0086",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific hidden truth"
+ },
+ {
+  "pid": "p0090",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both labels, both contrarian"
+ },
+ {
+  "pid": "p0094",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic label plus fact"
+ },
+ {
+  "pid": "p0098",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0102",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "hidden truth plus skill"
+ },
+ {
+  "pid": "p0106",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "adds alarming truth reveal"
+ },
+ {
+  "pid": "p0110",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0114",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "real reason reveal"
+ },
+ {
+  "pid": "p0118",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both plain promises"
+ },
+ {
+  "pid": "p0122",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "curiosity over description"
+ },
+ {
+  "pid": "p0126",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill promises"
+ },
+ {
+  "pid": "p0130",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both plain"
+ },
+ {
+  "pid": "p0134",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same insider label"
+ },
+ {
+  "pid": "p0138",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both switch stories"
+ },
+ {
+  "pid": "p0142",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both contrarian"
+ },
+ {
+  "pid": "p0146",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "expose reveal over teaser"
+ },
+ {
+  "pid": "p0150",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "confess reveal"
+ },
+ {
+  "pid": "p0154",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same label both fear"
+ },
+ {
+  "pid": "p0158",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0162",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B ironic contrarian"
+ },
+ {
+  "pid": "p0166",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both plain"
+ },
+ {
+  "pid": "p0170",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A narrow beginners framing"
+ },
+ {
+  "pid": "p0174",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "expert label, hidden truth"
+ },
+ {
+  "pid": "p0178",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "adds surprising fact"
+ },
+ {
+  "pid": "p0182",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic label beats name end"
+ },
+ {
+  "pid": "p0186",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0190",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both name first"
+ },
+ {
+  "pid": "p0194",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0198",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same words reordered"
+ },
+ {
+  "pid": "p0202",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian stop"
+ },
+ {
+  "pid": "p0206",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0210",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B narrow identity insult"
+ },
+ {
+  "pid": "p0214",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "celebrity own story"
+ },
+ {
+  "pid": "p0218",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "insider label plus fact"
+ },
+ {
+  "pid": "p0222",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0226",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same label hidden truth"
+ },
+ {
+  "pid": "p0230",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0234",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0238",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "surprising fact, A contrarian"
+ },
+ {
+  "pid": "p0242",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "equivalent"
+ },
+ {
+  "pid": "p0246",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0250",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic label, B contrarian"
+ },
+ {
+  "pid": "p0254",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0258",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0262",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0266",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific reveal, B narrow"
+ },
+ {
+  "pid": "p0270",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both tier two labels"
+ },
+ {
+  "pid": "p0274",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "skill over plain"
+ },
+ {
+  "pid": "p0278",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both celebrity stories"
+ },
+ {
+  "pid": "p0282",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0286",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "insider plus surprising fact"
+ },
+ {
+  "pid": "p0290",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "label beats name first"
+ },
+ {
+  "pid": "p0294",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0298",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "label over name first"
+ },
+ {
+  "pid": "p0302",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific reveal ADHD"
+ },
+ {
+  "pid": "p0306",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "superpower label beats CIA"
+ },
+ {
+  "pid": "p0310",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both labels secrets"
+ },
+ {
+  "pid": "p0314",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "celebrity own story"
+ },
+ {
+  "pid": "p0318",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both narrow men"
+ },
+ {
+  "pid": "p0322",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "curiosity vs skill"
+ },
+ {
+  "pid": "p0326",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same structure"
+ },
+ {
+  "pid": "p0330",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0334",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "equivalent"
+ },
+ {
+  "pid": "p0338",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A institution label"
+ },
+ {
+  "pid": "p0342",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "equivalent skill"
+ },
+ {
+  "pid": "p0346",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0350",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific rule reveal"
+ },
+ {
+  "pid": "p0354",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific surprising fact"
+ },
+ {
+  "pid": "p0358",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "equivalent skill"
+ },
+ {
+  "pid": "p0362",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A narrow gender framing"
+ },
+ {
+  "pid": "p0366",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "curiosity over nonsense"
+ },
+ {
+  "pid": "p0370",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific fact reveal"
+ },
+ {
+  "pid": "p0374",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "hidden truth over plain"
+ },
+ {
+  "pid": "p0378",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "skill vs curiosity"
+ },
+ {
+  "pid": "p0382",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic label hidden truth"
+ },
+ {
+  "pid": "p0386",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B rank label"
+ },
+ {
+  "pid": "p0390",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both plain"
+ },
+ {
+  "pid": "p0394",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "reveal over placeholder"
+ },
+ {
+  "pid": "p0398",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "reveal over question"
+ },
+ {
+  "pid": "p0402",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name first"
+ },
+ {
+  "pid": "p0406",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same label both fine"
+ },
+ {
+  "pid": "p0410",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0414",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "reveals next moves"
+ },
+ {
+  "pid": "p0418",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0422",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0426",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "stated revelation over question"
+ },
+ {
+  "pid": "p0430",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0434",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "curiosity over plain"
+ },
+ {
+  "pid": "p0438",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific money fact"
+ },
+ {
+  "pid": "p0442",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian stop"
+ },
+ {
+  "pid": "p0446",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific fact reveal"
+ },
+ {
+  "pid": "p0450",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both labels surprising facts"
+ },
+ {
+  "pid": "p0454",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "real reason reveal"
+ },
+ {
+  "pid": "p0458",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both hidden epidemic"
+ },
+ {
+  "pid": "p0462",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "warning vs skill"
+ },
+ {
+  "pid": "p0466",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "insider label first"
+ },
+ {
+  "pid": "p0470",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B institution brand label"
+ },
+ {
+  "pid": "p0474",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0478",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0482",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0486",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific label over name"
+ },
+ {
+  "pid": "p0490",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0494",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific celebrity reveal"
+ },
+ {
+  "pid": "p0498",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific story reveal"
+ },
+ {
+  "pid": "p0502",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "identical"
+ },
+ {
+  "pid": "p0506",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0510",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same label both fine"
+ },
+ {
+  "pid": "p0514",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "curiosity vs plain skill"
+ },
+ {
+  "pid": "p0518",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0522",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0526",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific story reveal"
+ },
+ {
+  "pid": "p0530",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "curiosity reveal over plain"
+ },
+ {
+  "pid": "p0534",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B narrow men framing"
+ },
+ {
+  "pid": "p0538",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0542",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0546",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both specific facts"
+ },
+ {
+  "pid": "p0550",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "superpower label first"
+ },
+ {
+  "pid": "p0554",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both name end"
+ },
+ {
+  "pid": "p0558",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0562",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian stop eating"
+ },
+ {
+  "pid": "p0566",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "B leads topic not name"
+ },
+ {
+  "pid": "p0570",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B rank label"
+ },
+ {
+  "pid": "p0574",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both narrow"
+ },
+ {
+  "pid": "p0578",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "insider label over trailer"
+ },
+ {
+  "pid": "p0582",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both reveal reasons"
+ },
+ {
+  "pid": "p0586",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0590",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A doubles contrarian"
+ },
+ {
+  "pid": "p0594",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "insider label over teaser"
+ },
+ {
+  "pid": "p0598",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific fact label"
+ },
+ {
+  "pid": "p0602",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0606",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0610",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "warning vs hidden truth"
+ },
+ {
+  "pid": "p0614",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian is dead"
+ },
+ {
+  "pid": "p0618",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both name first"
+ },
+ {
+  "pid": "p0622",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific fact reveal"
+ },
+ {
+  "pid": "p0626",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian do instead"
+ },
+ {
+  "pid": "p0630",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same rank label"
+ },
+ {
+  "pid": "p0634",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0638",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "adds warning"
+ },
+ {
+  "pid": "p0642",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0646",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific surprising fact"
+ },
+ {
+  "pid": "p0650",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "reveal over plain"
+ },
+ {
+  "pid": "p0654",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "label over name"
+ },
+ {
+  "pid": "p0658",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A rank label"
+ },
+ {
+  "pid": "p0662",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0666",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0670",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific money fact"
+ },
+ {
+  "pid": "p0674",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "more surprising facts"
+ },
+ {
+  "pid": "p0678",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "reveal quote over teaser"
+ },
+ {
+  "pid": "p0682",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both hidden truth"
+ },
+ {
+  "pid": "p0686",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0690",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both celebrity skill"
+ },
+ {
+  "pid": "p0694",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "instant skill over plain"
+ },
+ {
+  "pid": "p0698",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0702",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific reveal chefs"
+ },
+ {
+  "pid": "p0706",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0710",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same label both reveal"
+ },
+ {
+  "pid": "p0714",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0718",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0722",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific fact, B contrarian"
+ },
+ {
+  "pid": "p0726",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same rank label"
+ },
+ {
+  "pid": "p0730",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "curiosity over plain"
+ },
+ {
+  "pid": "p0734",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both celebrity"
+ },
+ {
+  "pid": "p0738",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific money fact"
+ },
+ {
+  "pid": "p0742",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian stop chasing"
+ },
+ {
+  "pid": "p0746",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific reveal"
+ },
+ {
+  "pid": "p0750",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "reveal, both rank"
+ },
+ {
+  "pid": "p0754",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A narrow identity framing"
+ },
+ {
+  "pid": "p0758",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "hidden truth over plain"
+ },
+ {
+  "pid": "p0762",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0766",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same institution label"
+ },
+ {
+  "pid": "p0770",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A name first"
+ },
+ {
+  "pid": "p0774",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both celebrity stories"
+ },
+ {
+  "pid": "p0778",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both celebrity stories"
+ },
+ {
+  "pid": "p0782",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific surprising detail"
+ },
+ {
+  "pid": "p0786",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0003",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0007",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both contrarian"
+ },
+ {
+  "pid": "p0011",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific reveal"
+ },
+ {
+  "pid": "p0015",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "curiosity over plain update"
+ },
+ {
+  "pid": "p0019",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0023",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0027",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0031",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0035",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "hidden truth nobody talks"
+ },
+ {
+  "pid": "p0039",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both labels both fear"
+ },
+ {
+  "pid": "p0043",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "own story vs hidden"
+ },
+ {
+  "pid": "p0047",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0051",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "hidden reason vs skill"
+ },
+ {
+  "pid": "p0055",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0059",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific fact reveal"
+ },
+ {
+  "pid": "p0063",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0067",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both plain"
+ },
+ {
+  "pid": "p0071",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian wrong"
+ },
+ {
+  "pid": "p0075",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A rank label"
+ },
+ {
+  "pid": "p0079",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A rank label"
+ },
+ {
+  "pid": "p0083",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same nickname label"
+ },
+ {
+  "pid": "p0087",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0091",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "skill vs reveal"
+ },
+ {
+  "pid": "p0095",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0099",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific rule reveal"
+ },
+ {
+  "pid": "p0103",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both money"
+ },
+ {
+  "pid": "p0107",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian wrong"
+ },
+ {
+  "pid": "p0111",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "people reading instant skill"
+ },
+ {
+  "pid": "p0115",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "curiosity over plain"
+ },
+ {
+  "pid": "p0119",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian stop"
+ },
+ {
+  "pid": "p0123",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0127",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0131",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both insider labels"
+ },
+ {
+  "pid": "p0135",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both narrow women"
+ },
+ {
+  "pid": "p0139",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B narrow identity"
+ },
+ {
+  "pid": "p0143",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "skill vs hidden"
+ },
+ {
+  "pid": "p0147",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0151",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same label both reveal"
+ },
+ {
+  "pid": "p0155",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific surprising fact"
+ },
+ {
+  "pid": "p0159",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "instant skill"
+ },
+ {
+  "pid": "p0163",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same rank label"
+ },
+ {
+  "pid": "p0167",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "lie reveal over plain"
+ },
+ {
+  "pid": "p0171",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0175",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both celebrity name"
+ },
+ {
+  "pid": "p0179",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0183",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B narrow beginners"
+ },
+ {
+  "pid": "p0187",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0191",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian hoax"
+ },
+ {
+  "pid": "p0195",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian stop using"
+ },
+ {
+  "pid": "p0199",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both spy labels"
+ },
+ {
+  "pid": "p0203",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same label"
+ },
+ {
+  "pid": "p0207",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both name first"
+ },
+ {
+  "pid": "p0211",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific reveal"
+ },
+ {
+  "pid": "p0215",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0219",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both plain"
+ },
+ {
+  "pid": "p0223",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic label beats name"
+ },
+ {
+  "pid": "p0227",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both celebrity reveals"
+ },
+ {
+  "pid": "p0231",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "celebrity curiosity"
+ },
+ {
+  "pid": "p0235",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B narrow identity"
+ },
+ {
+  "pid": "p0239",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both labels"
+ },
+ {
+  "pid": "p0243",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific fact reveal"
+ },
+ {
+  "pid": "p0247",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same label"
+ },
+ {
+  "pid": "p0251",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same label both fear"
+ },
+ {
+  "pid": "p0255",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "lie reveal, A corrective"
+ },
+ {
+  "pid": "p0259",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific fear"
+ },
+ {
+  "pid": "p0263",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0267",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A rank and contrarian"
+ },
+ {
+  "pid": "p0271",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A rank label"
+ },
+ {
+  "pid": "p0275",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both labels"
+ },
+ {
+  "pid": "p0279",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B narrow beginners"
+ },
+ {
+  "pid": "p0283",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0287",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0291",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0295",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0299",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same label"
+ },
+ {
+  "pid": "p0303",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both reveal"
+ },
+ {
+  "pid": "p0307",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B narrow identity"
+ },
+ {
+  "pid": "p0311",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0315",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0319",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0323",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0327",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "same label"
+ },
+ {
+  "pid": "p0331",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific fact"
+ },
+ {
+  "pid": "p0335",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same label"
+ },
+ {
+  "pid": "p0339",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B narrow framing"
+ },
+ {
+  "pid": "p0343",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "real reason reveal"
+ },
+ {
+  "pid": "p0347",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0351",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both rank labels"
+ },
+ {
+  "pid": "p0355",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0359",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0363",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0367",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0371",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both contrarian"
+ },
+ {
+  "pid": "p0375",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A doubles contrarian"
+ },
+ {
+  "pid": "p0379",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "own story, B narrow"
+ },
+ {
+  "pid": "p0383",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian stop ignoring"
+ },
+ {
+  "pid": "p0387",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0391",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both plain"
+ },
+ {
+  "pid": "p0395",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0399",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both narrow"
+ },
+ {
+  "pid": "p0403",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both narrow"
+ },
+ {
+  "pid": "p0407",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0411",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both narrow"
+ },
+ {
+  "pid": "p0415",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian misunderstands"
+ },
+ {
+  "pid": "p0419",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian worst advice"
+ },
+ {
+  "pid": "p0423",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both insider labels"
+ },
+ {
+  "pid": "p0427",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A narrow menopause framing"
+ },
+ {
+  "pid": "p0431",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B contrarian science wrong"
+ },
+ {
+  "pid": "p0435",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0439",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "hidden risk over plain"
+ },
+ {
+  "pid": "p0443",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same label both fine"
+ },
+ {
+  "pid": "p0447",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0451",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific surprising detail"
+ },
+ {
+  "pid": "p0455",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0459",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0463",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific surprising fact"
+ },
+ {
+  "pid": "p0467",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0471",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific money fact"
+ },
+ {
+  "pid": "p0475",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both labels narrow"
+ },
+ {
+  "pid": "p0479",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0483",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific fact habit"
+ },
+ {
+  "pid": "p0487",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "label beats name first"
+ },
+ {
+  "pid": "p0491",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both celebrity reveals"
+ },
+ {
+  "pid": "p0495",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "same label both fear"
+ },
+ {
+  "pid": "p0499",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A institution label"
+ },
+ {
+  "pid": "p0503",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0507",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian useless"
+ },
+ {
+  "pid": "p0511",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "reveals secret"
+ },
+ {
+  "pid": "p0515",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0519",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0523",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "nickname label"
+ },
+ {
+  "pid": "p0527",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "insider label over placeholder"
+ },
+ {
+  "pid": "p0531",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "secret reveal"
+ },
+ {
+  "pid": "p0535",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0539",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0543",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both tier two labels"
+ },
+ {
+  "pid": "p0547",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A institution label"
+ },
+ {
+  "pid": "p0551",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0555",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific fact, B narrow"
+ },
+ {
+  "pid": "p0559",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both rank labels"
+ },
+ {
+  "pid": "p0563",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0567",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "warning over plain"
+ },
+ {
+  "pid": "p0571",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both labels specific"
+ },
+ {
+  "pid": "p0575",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "hidden truth reveal"
+ },
+ {
+  "pid": "p0579",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both hidden truth"
+ },
+ {
+  "pid": "p0583",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both specific quotes"
+ },
+ {
+  "pid": "p0587",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0591",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "superpower label, A stop"
+ },
+ {
+  "pid": "p0595",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B narrow modern men"
+ },
+ {
+  "pid": "p0599",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "identical"
+ },
+ {
+  "pid": "p0603",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "label beats name first"
+ },
+ {
+  "pid": "p0607",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0611",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "specific skill promise"
+ },
+ {
+  "pid": "p0615",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0619",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both topic labels"
+ },
+ {
+  "pid": "p0623",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0627",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "nickname plus instant skill"
+ },
+ {
+  "pid": "p0631",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0635",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0639",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0643",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A rank champs label"
+ },
+ {
+  "pid": "p0647",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0651",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0655",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0659",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "truth reveal"
+ },
+ {
+  "pid": "p0663",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0667",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0671",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "warning over plain"
+ },
+ {
+  "pid": "p0675",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "instant skill, B name"
+ },
+ {
+  "pid": "p0679",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0683",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0687",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A contrarian overrated"
+ },
+ {
+  "pid": "p0691",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both curiosity"
+ },
+ {
+  "pid": "p0695",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "superpower label people reader"
+ },
+ {
+  "pid": "p0699",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "reason vs tips"
+ },
+ {
+  "pid": "p0703",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A mild contrarian"
+ },
+ {
+  "pid": "p0707",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both skill"
+ },
+ {
+  "pid": "p0711",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0715",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "hidden truth nobody knows"
+ },
+ {
+  "pid": "p0719",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both celebrity stories"
+ },
+ {
+  "pid": "p0723",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "specific fact"
+ },
+ {
+  "pid": "p0727",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both narrow"
+ },
+ {
+  "pid": "p0731",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "both labels"
+ },
+ {
+  "pid": "p0735",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "revelation over plain"
+ },
+ {
+  "pid": "p0739",
+  "pick": "B",
+  "rules_tie": false,
+  "reason": "A rank label"
+ },
+ {
+  "pid": "p0743",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both warning"
+ },
+ {
+  "pid": "p0747",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "label beats name first"
+ },
+ {
+  "pid": "p0751",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0755",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "identical"
+ },
+ {
+  "pid": "p0759",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "topic first beats name"
+ },
+ {
+  "pid": "p0763",
+  "pick": "B",
+  "rules_tie": true,
+  "reason": "near identical"
+ },
+ {
+  "pid": "p0767",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B rank label"
+ },
+ {
+  "pid": "p0771",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both hidden truth"
+ },
+ {
+  "pid": "p0775",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "both warning"
+ },
+ {
+  "pid": "p0779",
+  "pick": "A",
+  "rules_tie": false,
+  "reason": "B name first"
+ },
+ {
+  "pid": "p0783",
+  "pick": "A",
+  "rules_tie": true,
+  "reason": "near identical"
+ }
+]

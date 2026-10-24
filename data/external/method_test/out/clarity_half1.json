@@ -1,0 +1,2753 @@
+[
+{
+"pid": "p0002",
+"a_total": 34,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0006",
+"a_total": 24,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0010",
+"a_total": 31,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0014",
+"a_total": 29,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0018",
+"a_total": 33,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0022",
+"a_total": 31,
+"b_total": 31,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0026",
+"a_total": 31,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0030",
+"a_total": 32,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0034",
+"a_total": 32,
+"b_total": 26,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0038",
+"a_total": 32,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0042",
+"a_total": 29,
+"b_total": 27,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0046",
+"a_total": 34,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0050",
+"a_total": 29,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0054",
+"a_total": 31,
+"b_total": 14,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0058",
+"a_total": 32,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0062",
+"a_total": 26,
+"b_total": 28,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0066",
+"a_total": 31,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0070",
+"a_total": 38,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0074",
+"a_total": 26,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0078",
+"a_total": 25,
+"b_total": 27,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0082",
+"a_total": 37,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0086",
+"a_total": 33,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0090",
+"a_total": 36,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0094",
+"a_total": 27,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0098",
+"a_total": 27,
+"b_total": 25,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0102",
+"a_total": 34,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0106",
+"a_total": 29,
+"b_total": 42,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0110",
+"a_total": 35,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0114",
+"a_total": 27,
+"b_total": 29,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0118",
+"a_total": 27,
+"b_total": 28,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0122",
+"a_total": 22,
+"b_total": 21,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0126",
+"a_total": 33,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0130",
+"a_total": 26,
+"b_total": 20,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0134",
+"a_total": 36,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0138",
+"a_total": 31,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0142",
+"a_total": 35,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0146",
+"a_total": 37,
+"b_total": 14,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0150",
+"a_total": 31,
+"b_total": 31,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0154",
+"a_total": 34,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0158",
+"a_total": 35,
+"b_total": 35,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0162",
+"a_total": 30,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0166",
+"a_total": 33,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0170",
+"a_total": 30,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0174",
+"a_total": 38,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0178",
+"a_total": 29,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0182",
+"a_total": 32,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0186",
+"a_total": 34,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0190",
+"a_total": 38,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0194",
+"a_total": 28,
+"b_total": 27,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0198",
+"a_total": 29,
+"b_total": 29,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0202",
+"a_total": 34,
+"b_total": 34,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0206",
+"a_total": 26,
+"b_total": 28,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0210",
+"a_total": 37,
+"b_total": 37,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0214",
+"a_total": 33,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0218",
+"a_total": 40,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0222",
+"a_total": 40,
+"b_total": 40,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0226",
+"a_total": 42,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0230",
+"a_total": 27,
+"b_total": 29,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0234",
+"a_total": 31,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0238",
+"a_total": 37,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0242",
+"a_total": 24,
+"b_total": 27,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0246",
+"a_total": 37,
+"b_total": 37,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0250",
+"a_total": 32,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0254",
+"a_total": 38,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0258",
+"a_total": 28,
+"b_total": 27,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0262",
+"a_total": 27,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0266",
+"a_total": 36,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0270",
+"a_total": 36,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0274",
+"a_total": 29,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0278",
+"a_total": 32,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0282",
+"a_total": 21,
+"b_total": 27,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0286",
+"a_total": 29,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0290",
+"a_total": 38,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0294",
+"a_total": 25,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0298",
+"a_total": 34,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0302",
+"a_total": 41,
+"b_total": 35,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0306",
+"a_total": 37,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0310",
+"a_total": 39,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0314",
+"a_total": 31,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0318",
+"a_total": 27,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0322",
+"a_total": 23,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0326",
+"a_total": 31,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0330",
+"a_total": 30,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0334",
+"a_total": 37,
+"b_total": 37,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0338",
+"a_total": 34,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0342",
+"a_total": 33,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0346",
+"a_total": 33,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0350",
+"a_total": 29,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0354",
+"a_total": 28,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0358",
+"a_total": 33,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0362",
+"a_total": 39,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0366",
+"a_total": 36,
+"b_total": 14,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0370",
+"a_total": 27,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0374",
+"a_total": 34,
+"b_total": 24,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0378",
+"a_total": 31,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0382",
+"a_total": 38,
+"b_total": 38,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0386",
+"a_total": 39,
+"b_total": 41,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0390",
+"a_total": 35,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0394",
+"a_total": 29,
+"b_total": 11,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0398",
+"a_total": 31,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0402",
+"a_total": 30,
+"b_total": 30,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0406",
+"a_total": 37,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0410",
+"a_total": 34,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0414",
+"a_total": 37,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0418",
+"a_total": 28,
+"b_total": 30,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0422",
+"a_total": 33,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0426",
+"a_total": 40,
+"b_total": 38,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0430",
+"a_total": 31,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0434",
+"a_total": 30,
+"b_total": 27,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0438",
+"a_total": 26,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0442",
+"a_total": 29,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0446",
+"a_total": 32,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0450",
+"a_total": 40,
+"b_total": 39,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0454",
+"a_total": 31,
+"b_total": 27,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0458",
+"a_total": 35,
+"b_total": 42,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0462",
+"a_total": 32,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0466",
+"a_total": 42,
+"b_total": 41,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0470",
+"a_total": 38,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0474",
+"a_total": 29,
+"b_total": 29,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0478",
+"a_total": 30,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0482",
+"a_total": 32,
+"b_total": 32,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0486",
+"a_total": 33,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0490",
+"a_total": 31,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0494",
+"a_total": 28,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0498",
+"a_total": 33,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0502",
+"a_total": 37,
+"b_total": 37,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0506",
+"a_total": 35,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0510",
+"a_total": 38,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0514",
+"a_total": 27,
+"b_total": 22,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0518",
+"a_total": 43,
+"b_total": 43,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0522",
+"a_total": 30,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0526",
+"a_total": 29,
+"b_total": 29,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0530",
+"a_total": 33,
+"b_total": 26,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0534",
+"a_total": 34,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0538",
+"a_total": 27,
+"b_total": 27,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0542",
+"a_total": 28,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0546",
+"a_total": 37,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0550",
+"a_total": 39,
+"b_total": 38,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0554",
+"a_total": 41,
+"b_total": 42,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0558",
+"a_total": 27,
+"b_total": 26,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0562",
+"a_total": 38,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0566",
+"a_total": 39,
+"b_total": 41,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0570",
+"a_total": 33,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0574",
+"a_total": 31,
+"b_total": 31,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0578",
+"a_total": 15,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0582",
+"a_total": 38,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0586",
+"a_total": 33,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0590",
+"a_total": 38,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0594",
+"a_total": 13,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0598",
+"a_total": 36,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0602",
+"a_total": 31,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0606",
+"a_total": 29,
+"b_total": 29,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0610",
+"a_total": 30,
+"b_total": 30,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0614",
+"a_total": 40,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0618",
+"a_total": 37,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0622",
+"a_total": 32,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0626",
+"a_total": 24,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0630",
+"a_total": 37,
+"b_total": 35,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0634",
+"a_total": 37,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0638",
+"a_total": 33,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0642",
+"a_total": 33,
+"b_total": 33,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0646",
+"a_total": 38,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0650",
+"a_total": 30,
+"b_total": 26,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0654",
+"a_total": 32,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0658",
+"a_total": 41,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0662",
+"a_total": 36,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0666",
+"a_total": 34,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0670",
+"a_total": 38,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0674",
+"a_total": 36,
+"b_total": 36,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0678",
+"a_total": 14,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0682",
+"a_total": 36,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0686",
+"a_total": 28,
+"b_total": 28,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0690",
+"a_total": 36,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0694",
+"a_total": 36,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0698",
+"a_total": 26,
+"b_total": 26,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0702",
+"a_total": 37,
+"b_total": 24,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0706",
+"a_total": 35,
+"b_total": 35,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0710",
+"a_total": 40,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0714",
+"a_total": 29,
+"b_total": 30,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0718",
+"a_total": 38,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0722",
+"a_total": 38,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0726",
+"a_total": 40,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0730",
+"a_total": 20,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0734",
+"a_total": 34,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0738",
+"a_total": 35,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0742",
+"a_total": 37,
+"b_total": 35,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0746",
+"a_total": 33,
+"b_total": 25,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0750",
+"a_total": 38,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0754",
+"a_total": 32,
+"b_total": 32,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0758",
+"a_total": 20,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0762",
+"a_total": 38,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0766",
+"a_total": 31,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0770",
+"a_total": 41,
+"b_total": 38,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0774",
+"a_total": 33,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0778",
+"a_total": 37,
+"b_total": 35,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0782",
+"a_total": 31,
+"b_total": 31,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0786",
+"a_total": 29,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0003",
+"a_total": 31,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0007",
+"a_total": 33,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0011",
+"a_total": 25,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0015",
+"a_total": 29,
+"b_total": 23,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0019",
+"a_total": 23,
+"b_total": 23,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0023",
+"a_total": 31,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0027",
+"a_total": 24,
+"b_total": 24,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0031",
+"a_total": 36,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0035",
+"a_total": 33,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0039",
+"a_total": 34,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0043",
+"a_total": 35,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0047",
+"a_total": 28,
+"b_total": 28,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0051",
+"a_total": 32,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0055",
+"a_total": 38,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0059",
+"a_total": 36,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0063",
+"a_total": 29,
+"b_total": 29,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0067",
+"a_total": 25,
+"b_total": 30,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0071",
+"a_total": 34,
+"b_total": 27,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0075",
+"a_total": 29,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0079",
+"a_total": 33,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0083",
+"a_total": 36,
+"b_total": 36,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0087",
+"a_total": 29,
+"b_total": 30,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0091",
+"a_total": 32,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0095",
+"a_total": 28,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0099",
+"a_total": 29,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0103",
+"a_total": 34,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0107",
+"a_total": 40,
+"b_total": 38,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0111",
+"a_total": 36,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0115",
+"a_total": 28,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0119",
+"a_total": 32,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0123",
+"a_total": 36,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0127",
+"a_total": 31,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0131",
+"a_total": 38,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0135",
+"a_total": 35,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0139",
+"a_total": 32,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0143",
+"a_total": 38,
+"b_total": 25,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0147",
+"a_total": 28,
+"b_total": 28,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0151",
+"a_total": 33,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0155",
+"a_total": 37,
+"b_total": 35,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0159",
+"a_total": 36,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0163",
+"a_total": 43,
+"b_total": 42,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0167",
+"a_total": 27,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0171",
+"a_total": 33,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0175",
+"a_total": 36,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0179",
+"a_total": 31,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0183",
+"a_total": 29,
+"b_total": 30,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0187",
+"a_total": 39,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0191",
+"a_total": 43,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0195",
+"a_total": 34,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0199",
+"a_total": 33,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0203",
+"a_total": 35,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0207",
+"a_total": 21,
+"b_total": 25,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0211",
+"a_total": 32,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0215",
+"a_total": 39,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0219",
+"a_total": 29,
+"b_total": 29,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0223",
+"a_total": 38,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0227",
+"a_total": 35,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0231",
+"a_total": 28,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0235",
+"a_total": 34,
+"b_total": 34,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0239",
+"a_total": 41,
+"b_total": 42,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0243",
+"a_total": 30,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0247",
+"a_total": 40,
+"b_total": 35,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0251",
+"a_total": 34,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0255",
+"a_total": 40,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0259",
+"a_total": 26,
+"b_total": 32,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0263",
+"a_total": 30,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0267",
+"a_total": 42,
+"b_total": 40,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0271",
+"a_total": 37,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0275",
+"a_total": 38,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0279",
+"a_total": 30,
+"b_total": 30,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0283",
+"a_total": 34,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0287",
+"a_total": 40,
+"b_total": 38,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0291",
+"a_total": 39,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0295",
+"a_total": 27,
+"b_total": 26,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0299",
+"a_total": 44,
+"b_total": 41,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0303",
+"a_total": 33,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0307",
+"a_total": 27,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0311",
+"a_total": 31,
+"b_total": 31,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0315",
+"a_total": 25,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0319",
+"a_total": 27,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0323",
+"a_total": 32,
+"b_total": 32,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0327",
+"a_total": 34,
+"b_total": 34,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0331",
+"a_total": 35,
+"b_total": 26,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0335",
+"a_total": 38,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0339",
+"a_total": 36,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0343",
+"a_total": 30,
+"b_total": 27,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0347",
+"a_total": 33,
+"b_total": 33,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0351",
+"a_total": 34,
+"b_total": 34,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0355",
+"a_total": 23,
+"b_total": 28,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0359",
+"a_total": 33,
+"b_total": 33,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0363",
+"a_total": 40,
+"b_total": 39,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0367",
+"a_total": 30,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0371",
+"a_total": 34,
+"b_total": 34,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0375",
+"a_total": 40,
+"b_total": 35,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0379",
+"a_total": 37,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0383",
+"a_total": 37,
+"b_total": 37,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0387",
+"a_total": 38,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0391",
+"a_total": 31,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0395",
+"a_total": 27,
+"b_total": 27,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0399",
+"a_total": 38,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0403",
+"a_total": 33,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0407",
+"a_total": 35,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0411",
+"a_total": 33,
+"b_total": 33,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0415",
+"a_total": 30,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0419",
+"a_total": 38,
+"b_total": 41,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0423",
+"a_total": 35,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0427",
+"a_total": 37,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0431",
+"a_total": 35,
+"b_total": 35,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0435",
+"a_total": 41,
+"b_total": 42,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0439",
+"a_total": 37,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0443",
+"a_total": 35,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0447",
+"a_total": 33,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0451",
+"a_total": 38,
+"b_total": 35,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0455",
+"a_total": 34,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0459",
+"a_total": 33,
+"b_total": 33,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0463",
+"a_total": 42,
+"b_total": 42,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0467",
+"a_total": 29,
+"b_total": 29,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0471",
+"a_total": 35,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0475",
+"a_total": 37,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0479",
+"a_total": 30,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0483",
+"a_total": 44,
+"b_total": 41,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0487",
+"a_total": 39,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0491",
+"a_total": 34,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0495",
+"a_total": 33,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0499",
+"a_total": 40,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0503",
+"a_total": 35,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0507",
+"a_total": 43,
+"b_total": 46,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0511",
+"a_total": 36,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0515",
+"a_total": 30,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0519",
+"a_total": 32,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0523",
+"a_total": 31,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0527",
+"a_total": 37,
+"b_total": 11,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0531",
+"a_total": 34,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0535",
+"a_total": 34,
+"b_total": 34,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0539",
+"a_total": 27,
+"b_total": 25,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0543",
+"a_total": 35,
+"b_total": 38,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0547",
+"a_total": 40,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0551",
+"a_total": 27,
+"b_total": 26,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0555",
+"a_total": 39,
+"b_total": 34,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0559",
+"a_total": 34,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0563",
+"a_total": 39,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0567",
+"a_total": 27,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0571",
+"a_total": 42,
+"b_total": 44,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0575",
+"a_total": 30,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0579",
+"a_total": 40,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0583",
+"a_total": 36,
+"b_total": 40,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0587",
+"a_total": 28,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0591",
+"a_total": 32,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0595",
+"a_total": 37,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0599",
+"a_total": 39,
+"b_total": 39,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0603",
+"a_total": 36,
+"b_total": 35,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0607",
+"a_total": 30,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0611",
+"a_total": 36,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0615",
+"a_total": 30,
+"b_total": 29,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0619",
+"a_total": 40,
+"b_total": 37,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0623",
+"a_total": 26,
+"b_total": 26,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0627",
+"a_total": 38,
+"b_total": 39,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0631",
+"a_total": 31,
+"b_total": 31,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0635",
+"a_total": 34,
+"b_total": 34,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0639",
+"a_total": 24,
+"b_total": 28,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0643",
+"a_total": 35,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0647",
+"a_total": 28,
+"b_total": 28,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0651",
+"a_total": 29,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0655",
+"a_total": 37,
+"b_total": 37,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0659",
+"a_total": 30,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0663",
+"a_total": 32,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0667",
+"a_total": 28,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0671",
+"a_total": 26,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0675",
+"a_total": 29,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0679",
+"a_total": 32,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0683",
+"a_total": 35,
+"b_total": 36,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0687",
+"a_total": 29,
+"b_total": 34,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0691",
+"a_total": 30,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0695",
+"a_total": 41,
+"b_total": 39,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0699",
+"a_total": 31,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0703",
+"a_total": 33,
+"b_total": 25,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0707",
+"a_total": 38,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0711",
+"a_total": 37,
+"b_total": 37,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0715",
+"a_total": 37,
+"b_total": 32,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0719",
+"a_total": 35,
+"b_total": 33,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0723",
+"a_total": 26,
+"b_total": 30,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0727",
+"a_total": 26,
+"b_total": 31,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0731",
+"a_total": 39,
+"b_total": 38,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0735",
+"a_total": 29,
+"b_total": 28,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0739",
+"a_total": 32,
+"b_total": 37,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0743",
+"a_total": 36,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0747",
+"a_total": 35,
+"b_total": 31,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0751",
+"a_total": 31,
+"b_total": 31,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0755",
+"a_total": 43,
+"b_total": 43,
+"pick": "A",
+"tie": true
+},
+{
+"pid": "p0759",
+"a_total": 28,
+"b_total": 28,
+"pick": "B",
+"tie": true
+},
+{
+"pid": "p0763",
+"a_total": 31,
+"b_total": 33,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0767",
+"a_total": 34,
+"b_total": 35,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0771",
+"a_total": 38,
+"b_total": 43,
+"pick": "B",
+"tie": false
+},
+{
+"pid": "p0775",
+"a_total": 36,
+"b_total": 30,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0779",
+"a_total": 37,
+"b_total": 36,
+"pick": "A",
+"tie": false
+},
+{
+"pid": "p0783",
+"a_total": 28,
+"b_total": 28,
+"pick": "A",
+"tie": true
+}
+]
