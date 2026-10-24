@@ -85,6 +85,51 @@
     "lane": "self-development"
   },
   {
+    "name": "We Need To Talk",
+    "channel_id": "UCzt4U1I0Wn-mWwZSOQp9lbQ",
+    "lane": "podcast"
+  },
+  {
+    "name": "Call Her Daddy",
+    "channel_id": "UCyGi3eCuxko37WB6uUr7LjA",
+    "lane": "podcast"
+  },
+  {
+    "name": "HealthyGamerGG",
+    "channel_id": "UClHVl2N3jPEbkNJVx-ItQIQ",
+    "lane": "communication"
+  },
+  {
+    "name": "Oprah",
+    "channel_id": "UChFnGuCZ_Fb4DhbxRm9N9UQ",
+    "lane": "podcast"
+  },
+  {
+    "name": "Sprouht",
+    "channel_id": "UC-q5vNvj81OmWK0pzaLB-kg",
+    "lane": "self-development"
+  },
+  {
+    "name": "Sandeep Swadia",
+    "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+    "lane": "self-development"
+  },
+  {
+    "name": "After Skool",
+    "channel_id": "UC1KmNKYC1l0stjctkGswl6g",
+    "lane": "self-development"
+  },
+  {
+    "name": "THE GRIM",
+    "channel_id": "UC5eAFEk3psF0mIDtKVsdl4Q",
+    "lane": "self-development"
+  },
+  {
+    "name": "Modern Wisdom",
+    "channel_id": "UCIaH-gZIVC432YRjNVvnyCA",
+    "lane": "podcast"
+  },
+  {
     "name": "Jefferson Fisher",
     "channel_id": "UCXjnpu6lK0HoUyOMh2ZBwhQ",
     "lane": "own"
