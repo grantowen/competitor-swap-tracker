@@ -150,5 +150,10 @@
     "name": "Open Residency",
     "channel_id": "UC3P7JC2BIQHpUvdhxFHmnsg",
     "lane": "podcast"
+  },
+  {
+    "name": "My First Million",
+    "channel_id": "UCyaN6mg5u8Cjy2ZI4ikWaug",
+    "lane": "podcast"
   }
 ]
